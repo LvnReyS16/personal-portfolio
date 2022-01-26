@@ -1,6 +1,7 @@
 import React from 'react';
 
 import about_me from '../assets/about_me.png'
+import cv from '../assets/Elvin_cv.pdf';
 function AboutMe() {
     
   
@@ -16,7 +17,7 @@ function AboutMe() {
                     <div className="about-me-text">
                         <h2>Elvin Rey Saavedra</h2>
                         <p>Full-Stack Developer, Software Engineer and a team player. I am looking for opportunities where I can change, improve and give impact through development</p>
-                        <button>Download CV</button>       
+                        <button><a class="cv" href={cv} download="Saavedra_Elvin_Rey_ResumeCV.pdf">Download CV</a></button>       
                     </div>
                         
                 </div>

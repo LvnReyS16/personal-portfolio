@@ -127,6 +127,11 @@
   margin-right: 5rem;
 }
 
+.about-me-text a{
+  text-decoration: none;
+  color: var(--p-color);
+}
+
 
 .about-me-page .row2{
   display: flex;
