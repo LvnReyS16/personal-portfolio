@@ -35,7 +35,7 @@ const Experience = () => {
                 <p className="text-primary ">
                   <span>{item.languageUsed}</span>
                 </p>
-                <div className="flex gap-4 mt-1">
+                <div className="flex gap-4 mt-1 text-sm lg:text-base">
                   <a
                     href={item.demoLink}
                     target="_blank"
