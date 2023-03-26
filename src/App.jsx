@@ -28,7 +28,7 @@ function App() {
   //   };
   // }, []);
   return (
-    <div className="font-poppins w-full">
+    <div className="font-poppins w-full ">
       <Header />
       <About />
       <Experience />

@@ -73,7 +73,7 @@ const Contact = () => {
       </div>
       <div className="flex justify-center lg:gap-20 flex-col lg:flex-row items-center">
         {/* address */}
-        <div className="p-10">
+        <div className="lg:p-10">
           <div className="flex items-center text-white px-5 pb-5">
             <div className="">
               <AiOutlineMail className="w-20 h-12" />
@@ -104,7 +104,7 @@ const Contact = () => {
         </div>
 
         {/* form */}
-        <div className="p-10 ">
+        <div className="p-5 lg:p-10">
           <ToastContainer />
           <form onSubmit={sendEmail} className="lg:w-[40rem] max-w-xl">
             <div className="flex">
@@ -149,7 +149,6 @@ const Contact = () => {
                   </div>
                 ) : (
                   <>
-                    {" "}
                     Send Message <BsSend />
                   </>
                 )}

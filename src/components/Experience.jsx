@@ -9,9 +9,9 @@ const Experience = () => {
     <div className="bg-bgSecondary pt-10 ">
       <div className="lg:grid lg:grid-cols-2 ">
         <div className="flex justify-center lg:sticky lg:top-0  lg:self-start pb-10 ">
-          <h2 className="text-7xl text-white">
+          <h2 className=" text-5xl lg:text-7xl text-white">
             Developing
-            <span className="block text-5xl pt-4">
+            <span className="text-center lg:text-start block text-5xl pt-4">
               since <span className="text-secondary text-5xl">2019</span>{" "}
             </span>
           </h2>

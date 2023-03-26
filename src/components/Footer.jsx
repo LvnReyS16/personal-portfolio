@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="h-[20vh] bg-secondary">
       <div className="flex w-full flex-col h-full justify-center items-center gap-5 text-white">
-        <ul className="flex justify-center gap-10 items-center ">
+        <ul className="flex justify-center gap-4 lg:gap-10 items-center ">
           <li>
             <a
               className="hover:underline"
