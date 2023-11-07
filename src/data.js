@@ -20,19 +20,24 @@ import graphic12 from "./assets/graphic12.png";
 
 export const workHistory = [
   {
+    company: "Superloop",
+    jobTitle: "Fullstack Developer",
+    time: "June 2023 - Present",
+  },
+  {
     company: "Questronix Corporation",
     jobTitle: "Fullstack Developer",
-    time: "September 2022 - Present",
+    time: "July 2022 - June 2023",
   },
   {
     company: "Multisys Technologies Corporation",
     jobTitle: "Front-End Software Engineer",
-    time: "March 2022 - September 2022",
+    time: "March 2021 - July 2022",
   },
   {
     company: "Freelance",
     jobTitle: "Social Media Manager, Video Editor, Web Developer",
-    time: "August 2022 - January 2022",
+    time: "August 2020 - March 2021",
   },
   {
     company: "Debug.Go",

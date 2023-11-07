@@ -17,15 +17,17 @@ const Experience = () => {
           </h2>
         </div>
         <div className="flex flex-wrap gap-4 mx-20 justify-center">
-          {workHistory?.map((item, index) => (
-            <div className="max-w-[20rem] flex-auto" key={index}>
-              <h3 className="text-white font-bold">{item?.company}</h3>
-              <p className="text-white">{item?.jobTitle}</p>
-              <p className="text-primary">
-                <span>{item.time}</span>
-              </p>
-            </div>
-          ))}
+         <div className="md:grid md:grid-cols-2 md:gap-2">
+            {workHistory?.map((item, index) => (
+                <div className="max-w-[20rem] flex-auto mb-4 md:mb-0" key={index}>
+                  <h3 className="text-white font-bold">{item?.company}</h3>
+                  <p className="text-white">{item?.jobTitle}</p>
+                  <p className="text-primary">
+                    <span>{item.time}</span>
+                  </p>
+                </div>
+              ))}
+         </div>
           <div className="flex flex-wrap gap-6 mt-6 justify-center">
             {Projects?.map((item, index) => (
               <div className="max-w-[20rem] flex-auto" key={index}>
