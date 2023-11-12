@@ -17,6 +17,8 @@ import graphic9 from "./assets/graphic9.png";
 import graphic10 from "./assets/graphic10.png";
 import graphic11 from "./assets/graphic11.png";
 import graphic12 from "./assets/graphic12.png";
+import graphic13 from "./assets/Minimalist Aesthethic Debut Invitation Template.png";
+import graphic14 from "./assets/Minimalist Wedding Floral Invitation.png";
 import gpt from "./assets/gpt.png";
 
 export const workHistory = [
@@ -140,5 +142,13 @@ export const Graphics = [
   {
     id: 12,
     img: graphic12,
+  },
+  {
+    id: 13,
+    img: graphic13,
+  },
+  {
+    id: 14,
+    img: graphic14,
   },
 ];
