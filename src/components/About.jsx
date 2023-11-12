@@ -18,9 +18,7 @@ const About = () => {
               Elvin Rey Saavedra
             </h2>
             <p className="text-primary text-lg ">
-              Full-Stack Developer, Software Engineer and a team player. I am
-              looking for opportunities where I can change, improve and give
-              impact through development
+            a highly skilled Developer with experience in managing and guiding development teams to foster a culture of collaboration and innovation. I specialize in researching and integrating new technologies into platforms, with a particular focus on cloud services and databases such as IBM, Google Cloud Platform, and AWS.
             </p>
             <button className=" rounded-2xl text-primary w-[9rem] h-10 my-6 bg-white hover:bg-secondary hover:text-white ease-in-out duration-300">
               <a
@@ -42,7 +40,7 @@ const About = () => {
           <p className="text-primary">
             ReactJs, CSS, HTML, JavaScript, Typescript, NodeJS, Express, AWS,
             DigitalOcean, Git, Adobe XD, Figma, Photosohp, Premiere Pro,
-            Tailwind CSS, Material-UI
+            Tailwind CSS, Material-UI, etc...
           </p>
         </div>
       </div>

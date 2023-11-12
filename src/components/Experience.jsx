@@ -38,7 +38,7 @@ const Experience = () => {
                   <span>{item.languageUsed}</span>
                 </p>
                 <div className="flex gap-4 mt-1 text-sm lg:text-base">
-                  <a
+                  {item?.demoLink && <a
                     href={item.demoLink}
                     target="_blank"
                     rel="noreferrer"
@@ -46,7 +46,7 @@ const Experience = () => {
                   >
                     <AiOutlineLink className="AiOutlineLink" />
                     Live Demo
-                  </a>
+                  </a>}
                   <a
                     href={item.sourceCodeLink}
                     target="_blank"

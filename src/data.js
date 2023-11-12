@@ -17,6 +17,7 @@ import graphic9 from "./assets/graphic9.png";
 import graphic10 from "./assets/graphic10.png";
 import graphic11 from "./assets/graphic11.png";
 import graphic12 from "./assets/graphic12.png";
+import gpt from "./assets/gpt.png";
 
 export const workHistory = [
   {
@@ -82,6 +83,12 @@ export const Projects = [
     demoLink: "https://social-fling.onrender.com/",
     sourceCodeLink: "https://github.com/LvnReyS16/socialfling-client",
     img: socialFling,
+  },
+  {
+    title: "OWN-GPT",
+    languageUsed: "REACT TYPESCRIPT NODE MONGODB OPENAI",
+    sourceCodeLink: "https://github.com/LvnReyS16/customize-chat-bot",
+    img: gpt,
   },
 ];
 
