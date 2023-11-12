@@ -152,3 +152,19 @@ export const Graphics = [
     img: graphic14,
   },
 ];
+
+
+export const SocialLinks = [
+  {
+    name: "Twitter",
+    link: "https://twitter.com/LvnReyS"
+  },
+  {
+    name: "Medium",
+    link: "https://medium.com/@saavedra.lvnry"
+  },
+  {
+    name: "Github",
+    link: "https://github.com/LvnReyS16"
+  },
+]
